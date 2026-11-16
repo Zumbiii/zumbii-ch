@@ -1,0 +1,20 @@
+$colorBgDeep: #0a0e14;
+$colorBgPanel: #121a24;
+$colorBgPanelAlt: #182230;
+$colorBorderGold: #c9a227;
+$colorBorderGoldDim: rgba(201, 162, 39, 0.45);
+$colorAccentTeal: #2dd4bf;
+$colorAccentTealDim: rgba(45, 212, 191, 0.35);
+$colorText: #e8edf4;
+$colorTextMuted: #93a4b8;
+$colorDanger: #f87171;
+$colorRare: #3b82f6;
+$colorEpic: #a855f7;
+$colorLegendary: #f59e0b;
+
+$rarityColors: (
+  'common': $colorTextMuted,
+  'rare': $colorRare,
+  'epic': $colorEpic,
+  'legendary': $colorLegendary,
+);

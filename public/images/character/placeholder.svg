@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="640" viewBox="0 0 480 640" role="img" aria-labelledby="title">
+  <title id="title">Character portrait placeholder</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121a24"/>
+      <stop offset="100%" stop-color="#0a0e14"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c547"/>
+      <stop offset="100%" stop-color="#8b6914"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="640" fill="url(#bg)"/>
+  <rect x="24" y="24" width="432" height="592" fill="none" stroke="url(#gold)" stroke-width="4" rx="8"/>
+  <circle cx="240" cy="220" r="72" fill="#2dd4bf" opacity="0.25"/>
+  <rect x="160" y="320" width="160" height="200" rx="24" fill="#182230"/>
+  <text x="240" y="580" text-anchor="middle" fill="#c9a227" font-family="serif" font-size="22">AI PORTRAIT</text>
+</svg>

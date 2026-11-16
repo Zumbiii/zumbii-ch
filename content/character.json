@@ -1,0 +1,55 @@
+{
+  "level": 35,
+  "yearsExperience": 12,
+  "xpPercent": 82,
+  "skills": [
+    { "id": "hosting", "points": 96, "max": 100 },
+    { "id": "quizDesign", "points": 94, "max": 100 },
+    { "id": "moderation", "points": 90, "max": 100 },
+    { "id": "vueNuxt", "points": 88, "max": 100 },
+    { "id": "eventOps", "points": 85, "max": 100 },
+    { "id": "cursorCraft", "points": 92, "max": 100 }
+  ],
+  "pet": {
+    "id": "cat",
+    "level": 7
+  },
+  "equipment": [
+    { "id": "cursor", "slot": "offHand", "rarity": "legendary" },
+    { "id": "mic", "slot": "mainHand", "rarity": "epic" },
+    { "id": "timer", "slot": "trinket", "rarity": "rare" }
+  ],
+  "achievements": ["firstPubquiz", "hundredPlayers", "guildSidequest"],
+  "activeQuests": ["jobHunt", "myiSidequest", "nextPubquiz"],
+  "raids": [
+    { "id": "raid1", "year": 2025, "players": 80 },
+    { "id": "raid2", "year": 2026, "players": 95 }
+  ],
+  "loot": [
+    {
+      "id": "pubquizSite",
+      "rarity": "epic",
+      "url": "https://pubquiz-sissach.ch",
+      "tags": ["nuxt", "events"]
+    },
+    {
+      "id": "pubquizApp",
+      "rarity": "legendary",
+      "url": "https://github.com",
+      "tags": ["nuxt", "quiz", "live"]
+    },
+    {
+      "id": "zumbii",
+      "rarity": "legendary",
+      "url": "https://zumbii.ch",
+      "tags": ["portfolio", "nuxt"]
+    }
+  ],
+  "reputation": [
+    { "id": "pubquizCommunity", "value": 92 },
+    { "id": "nerdBars", "value": 88 },
+    { "id": "devGuild", "value": 75 }
+  ],
+  "hobbies": ["gaming", "series", "boardGames", "lanCulture"],
+  "talents": ["de", "en"]
+}

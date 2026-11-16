@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "homeTitle": "Diego — Character Hub | Zumbii",
+    "homeDescription": "MMORPG-Portfolio: Event Hosting, Nerd-Pubquiz, Live-Formate.",
+    "skillsTitle": "Skill Tree | Zumbii",
+    "questsTitle": "Quest Log — Pubquiz | Zumbii",
+    "lootTitle": "Loot — Projekte | Zumbii",
+    "contactTitle": "Whisper — Kontakt | Zumbii",
+    "myiTitle": "Sidequest: MYI | Zumbii"
+  },
+  "nav": {
+    "hub": "Hub",
+    "skills": "Skills",
+    "quests": "Quests",
+    "loot": "Loot",
+    "sidequestMyi": "Sidequest MYI",
+    "contact": "Kontakt",
+    "language": "Sprache",
+    "menuOpen": "Menü öffnen",
+    "menuClose": "Menü schließen"
+  },
+  "common": {
+    "level": "Level",
+    "spec": "Spezialisierung",
+    "xp": "Erfahrung",
+    "years": "Jahre",
+    "rarity": "Seltenheit",
+    "learnMore": "Mehr erfahren",
+    "backToHub": "Zurück zum Hub",
+    "copySuccess": "In die Zwischenablage kopiert",
+    "optional": "optional",
+    "submit": "Absenden",
+    "sending": "Senden…",
+    "sendError": "Nachricht konnte nicht gesendet werden. Bitte Mailto nutzen.",
+    "sendSuccess": "Nachricht gesendet. Quest angenommen!"
+  },
+  "character": {
+    "name": "Diego",
+    "title": "Activation Host · Event Formats",
+    "secondaryClass": "Web Crafting (Sekundärklasse)",
+    "subtitle": "Ich hoste Räume — nicht Repositories.",
+    "mapRegion": "Basel-Land · Schweiz",
+    "pitch": "Primär suche ich Rollen in Event Management, Live-Aktivierungen und Hosting. Nerd-Pubquiz ist mein Signature-Format. Webentwicklung und Cursor sind mein Cheat-Code für schnelle Mechaniken — nicht der Job, den ich will.",
+    "portraitAlt": "Charakterportrait von Diego — Platzhalter für AI-Art",
+    "pet": {
+      "name": "Mystery Cat",
+      "role": "Begleiter",
+      "buff": "+15 Charisma in Bars, +10 Kuschel-Resistenz"
+    },
+    "equipment": {
+      "cursor": {
+        "name": "Cursor",
+        "effect": "Legendäre Off-Hand: Pair-Programming-Buff, schnellere Prototypen"
+      },
+      "mic": {
+        "name": "Host-Mikro",
+        "effect": "Episch: Raum halten, Tempo steuern"
+      },
+      "timer": {
+        "name": "Quest-Timer",
+        "effect": "Selten: Runden ohne Chaos"
+      }
+    },
+    "skills": {
+      "hosting": "Live Hosting",
+      "quizDesign": "Quiz-Design",
+      "moderation": "Moderation",
+      "vueNuxt": "Vue / Nuxt",
+      "eventOps": "Event Ops",
+      "cursorCraft": "Cursor Crafting"
+    },
+    "achievements": {
+      "firstPubquiz": "Erster Pubquiz-Raid",
+      "hundredPlayers": "100+ Spieler in einer Saison",
+      "guildSidequest": "Gilden-Sidequest gestartet"
+    },
+    "quests": {
+      "jobHunt": "Jobsuche: Live Formats & Events",
+      "myiSidequest": "Sidequest: MYI Agency",
+      "nextPubquiz": "Nächster Pubquiz-Abend"
+    },
+    "raids": {
+      "raid1": { "title": "Pubquiz Sissach", "venue": "Lokale Taverne" },
+      "raid2": { "title": "Season Opening", "venue": "Community Night" }
+    },
+    "loot": {
+      "pubquizSite": {
+        "name": "Pubquiz Sissach",
+        "description": "Event-Website mit Terminen, Teams und Instagram-Anbindung."
+      },
+      "pubquizApp": {
+        "name": "Pubquiz Live App",
+        "description": "Live-Quiz-Mechanik, Leaderboards und Event-Flows."
+      },
+      "zumbii": {
+        "name": "Zumbii.ch",
+        "description": "Dieses Charakterblatt — Portfolio als MMORPG-UI."
+      }
+    },
+    "reputation": {
+      "pubquizCommunity": "Pubquiz-Community",
+      "nerdBars": "Nerd-Bars & Kultur",
+      "devGuild": "Dev-Gilde (Support-Rolle)"
+    },
+    "hobbies": {
+      "gaming": "Gaming (Co-op & Retro)",
+      "series": "Serien & Pop Culture",
+      "boardGames": "Brettquests",
+      "lanCulture": "LAN & Convention-Vibes"
+    },
+    "talents": {
+      "de": "Deutsch (Muttersprache)",
+      "en": "Englisch (Raid-ready)"
+    }
+  },
+  "home": {
+    "stats": "Stats",
+    "equipment": "Ausrüstung",
+    "pets": "Pets",
+    "achievements": "Achievements",
+    "reputation": "Reputation",
+    "hobbies": "Collections & Emotes",
+    "activeQuests": "Aktive Quests",
+    "tradingCardCta": "Trading Card anzeigen",
+    "tradingCardBanner": "Trading Card"
+  },
+  "skillsPage": {
+    "intro": "Skill Points basieren auf echten Projekten und Abenden vor Publikum.",
+    "treeHint": "Primär-Skills fett — Dev-Skills als Support-Build."
+  },
+  "questsPage": {
+    "intro": "Pubquiz ist mein Dungeon: Moderation, Fragen, Publikum, Tempo.",
+    "formatTitle": "Format",
+    "formatText": "Nerd-Quiz in der Bar: Teams, mehrere Runden, Finale mit Spannung. Skalierbar von 20 bis 100+ Spieler.",
+    "loadoutTitle": "Loadout für Event-Nacht",
+    "loadoutItems": "Mikro, Timer, Leaderboard-App, Backup-Fragenkatalog",
+    "statsTitle": "Raid-Statistik",
+    "players": "Spieler",
+    "externalCta": "Pubquiz-Website besuchen",
+    "externalUrl": "https://pubquiz-sissach.ch"
+  },
+  "lootPage": {
+    "intro": "Projekte als Loot — sortiert nach Seltenheit."
+  },
+  "cursorBuff": {
+    "title": "Buff: Cursor",
+    "text": "Ich entwickle mit Cursor — nicht um Fullstack-Jobs zu suchen, sondern damit Live-Formate schnell stehen: Leaderboard, Brand-Quiz, Landing für Events. Das ist Tempo für Aktivierungen, nicht Dauercode.",
+    "tag": "Pair-Programming · AI-assisted"
+  },
+  "contact": {
+    "intro": "Whisper senden — Job, Quiz buchen oder Sidequest.",
+    "mailtoHint": "Oder direkt per E-Mail:",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "type": "Anfrage-Typ",
+      "message": "Nachricht",
+      "types": {
+        "job": "Job / Kollaboration",
+        "quiz": "Pubquiz buchen",
+        "other": "Sonstiges"
+      }
+    },
+    "legalImprint": "Impressum",
+    "legalPrivacy": "Datenschutz"
+  },
+  "legal": {
+    "imprintTitle": "Impressum",
+    "imprintPlaceholder": "TODO: Diego — Impressumstext einfügen.",
+    "privacyTitle": "Datenschutz",
+    "privacyPlaceholder": "TODO: Diego — Datenschutztext einfügen."
+  },
+  "myi": {
+    "badge": "Gilden-Sidequest",
+    "headline": "Ein Live-Format, das MYI an Brands verkaufen kann",
+    "roleTitle": "Vorgeschlagene Rolle",
+    "roleName": "Event Manager — Live Formats & Hosting",
+    "notDevTitle": "Kein Webentwickler-Job",
+    "notDevText": "Tech setze ich nur ein, wenn es dem Format hilft — Leaderboard, QR-Quest, schnelles Brand-Quiz.",
+    "variantsTitle": "Quiz-Varianten",
+    "variants": {
+      "booth": {
+        "title": "Booth Speed Quiz",
+        "text": "2–4 Minuten, hoher Durchsatz am Messestand."
+      },
+      "pub": {
+        "title": "Pub Quiz Night",
+        "text": "90 Minuten Community-Erlebnis mit Sponsor."
+      },
+      "stage": {
+        "title": "Stage Quiz Show",
+        "text": "20–30 Minuten, streambar, Creator-fähig."
+      }
+    },
+    "techTitle": "Cheat-Code: Web + Cursor",
+    "techPoints": {
+      "leaderboard": "Live-Leaderboard statt Zettel",
+      "brandQuiz": "Brand-Quiz in 48h inkl. Auswertung",
+      "qrQuest": "QR-Quest über die Halle",
+      "debrief": "Debrief-Zahlen für den Kunden"
+    },
+    "ctaRaid": "45 Min Probe-Raid anbieten",
+    "ctaContact": "Kontakt aufnehmen",
+    "reelTitle": "Host-Reel",
+    "reelPlaceholder": "Video-URL folgt — Platzhalter bereit.",
+    "mailSubject": "Sidequest fürs Event-Team: Nerd-Quiz als Brand-Aktivierung",
+    "mailSnippet": "Hallo MYI-Team — ich hoste Live-Aktivierungen, nicht Websites. Mein Format: Nerd-Pubquiz (Booth, Bar, Stage). Link zum spielbaren Mini-Quiz und Charakterblatt: ",
+    "copyMail": "Mail-Snippet kopieren",
+    "quizTitle": "MYI Lore-Quiz",
+    "quizIntro": "8 Fragen · 5 Min · Beweis, dass Hausaufgaben gemacht sind.",
+    "quizStart": "Quest starten",
+    "quizNext": "Weiter",
+    "quizFinish": "Abschliessen",
+    "quizScore": "Score: {score} / {total}",
+    "quizEndTitle": "Quest complete",
+    "quizEndText": "Wenn das bei euch im Team 5 Minuten Spass macht, hoste ich die längere Version live — im Office oder auf Discord.",
+    "quizEndCta": "Whisper senden"
+  },
+  "myiQuiz": {
+    "questions": {
+      "myiFullName": {
+        "question": "Wofür steht MYI primär?",
+        "options": [
+          "Gaming & Nerd Culture Marketing",
+          "Enterprise ERP Beratung",
+          "Klassische Print-Werbung"
+        ]
+      },
+      "myiFocus": {
+        "question": "Was beschreibt MYI am treffendsten?",
+        "options": [
+          "Nur Website-Relaunch",
+          "Full-Service von Strategie bis Event-Aktivierung",
+          "Reine IT-Support Hotline"
+        ]
+      },
+      "switzerLan": {
+        "question": "SwitzerLAN ist bekannt für…",
+        "options": [
+          "Winzerfest",
+          "Kleine Buchclub-Abende",
+          "Grosse LAN mit Community-Fokus"
+        ]
+      },
+      "heroFest": {
+        "question": "HeroFest verkörpert für MYI vor allem…",
+        "options": [
+          "Interaktive Brand-Aktivierungen vor Ort",
+          "Nur passive Banner-Werbung",
+          "Steuerberatung"
+        ]
+      },
+      "myiVibe": {
+        "question": "Die Team-Kultur bei MYI wirkt oft wie…",
+        "options": [
+          "Strenges Bankenbüro",
+          "Quests, Fandom, Discord, Sidequests",
+          "Schweigen und Folien"
+        ]
+      },
+      "swisscom": {
+        "question": "Swisscom taucht bei MYI typischerweise auf als…",
+        "options": [
+          "Gaming-/Lead-Kunde & Kampagnenpartner",
+          "Konkurrenz-Agentur",
+          "Hardware-Lieferant nur"
+        ]
+      },
+      "quizFormat": {
+        "question": "Diego's Pitch-Format passt am besten zu MYI, weil…",
+        "options": [
+          "es nur PDFs ersetzt",
+          "es keine Community braucht",
+          "es Live-Formate liefert, die Brands verkaufen können"
+        ]
+      },
+      "contactCta": {
+        "question": "Was ist der sinnvollste nächste Schritt nach diesem Quiz?",
+        "options": [
+          "CV als Webentwickler schicken",
+          "45 Min Probe-Quiz / Hosting anfragen",
+          "Nichts — nur Website bookmarken"
+        ]
+      }
+    }
+  }
+}

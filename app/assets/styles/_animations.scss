@@ -1,0 +1,20 @@
+@use 'colors' as *;
+
+@keyframes xpPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 8px rgba(45, 212, 191, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(45, 212, 191, 0.65);
+  }
+}
+
+@keyframes panelGlow {
+  from {
+    border-color: $colorBorderGoldDim;
+  }
+  to {
+    border-color: $colorBorderGold;
+  }
+}

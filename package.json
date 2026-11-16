@@ -1,0 +1,21 @@
+{
+  "name": "zumbii-ch",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "10.6.0",
+    "@vueuse/nuxt": "15.0.0",
+    "nuxt": "^4.6.4",
+    "nuxt-mail": "^9.0.0",
+    "sass": "^1.108.2",
+    "vue": "^3.5.45",
+    "vue-router": "^5.4.0"
+  }
+}

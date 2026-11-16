@@ -1,0 +1,13 @@
+{
+  "timeLimitMinutes": 5,
+  "questions": [
+    { "id": "myiFullName", "correctIndex": 0 },
+    { "id": "myiFocus", "correctIndex": 1 },
+    { "id": "switzerLan", "correctIndex": 2 },
+    { "id": "heroFest", "correctIndex": 0 },
+    { "id": "myiVibe", "correctIndex": 1 },
+    { "id": "swisscom", "correctIndex": 0 },
+    { "id": "quizFormat", "correctIndex": 2 },
+    { "id": "contactCta", "correctIndex": 1 }
+  ]
+}

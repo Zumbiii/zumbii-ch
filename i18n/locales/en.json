@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "homeTitle": "Diego — Character Hub | Zumbii",
+    "homeDescription": "MMORPG portfolio: event hosting, nerd pub quiz, live formats.",
+    "skillsTitle": "Skill Tree | Zumbii",
+    "questsTitle": "Quest Log — Pub Quiz | Zumbii",
+    "lootTitle": "Loot — Projects | Zumbii",
+    "contactTitle": "Whisper — Contact | Zumbii",
+    "myiTitle": "Sidequest: MYI | Zumbii"
+  },
+  "nav": {
+    "hub": "Hub",
+    "skills": "Skills",
+    "quests": "Quests",
+    "loot": "Loot",
+    "sidequestMyi": "MYI Sidequest",
+    "contact": "Contact",
+    "language": "Language",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "common": {
+    "level": "Level",
+    "spec": "Specialization",
+    "xp": "Experience",
+    "years": "Years",
+    "rarity": "Rarity",
+    "learnMore": "Learn more",
+    "backToHub": "Back to hub",
+    "copySuccess": "Copied to clipboard",
+    "optional": "optional",
+    "submit": "Send",
+    "sending": "Sending…",
+    "sendError": "Could not send. Please use mailto.",
+    "sendSuccess": "Message sent. Quest accepted!"
+  },
+  "character": {
+    "name": "Diego",
+    "title": "Activation Host · Event Formats",
+    "secondaryClass": "Web Crafting (secondary class)",
+    "subtitle": "I host rooms — not just repositories.",
+    "mapRegion": "Basel-Land · Switzerland",
+    "pitch": "I'm targeting event management, live activations, and hosting. Nerd pub quiz is my signature format. Web dev and Cursor are my cheat code for fast mechanics — not the job I'm after.",
+    "portraitAlt": "Character portrait of Diego — placeholder for AI art",
+    "pet": {
+      "name": "Mystery Cat",
+      "role": "Companion",
+      "buff": "+15 charisma in bars, +10 cuddle resistance"
+    },
+    "equipment": {
+      "cursor": {
+        "name": "Cursor",
+        "effect": "Legendary off-hand: pair-programming buff, faster prototypes"
+      },
+      "mic": {
+        "name": "Host Mic",
+        "effect": "Epic: hold the room, set the pace"
+      },
+      "timer": {
+        "name": "Quest Timer",
+        "effect": "Rare: rounds without chaos"
+      }
+    },
+    "skills": {
+      "hosting": "Live Hosting",
+      "quizDesign": "Quiz Design",
+      "moderation": "Moderation",
+      "vueNuxt": "Vue / Nuxt",
+      "eventOps": "Event Ops",
+      "cursorCraft": "Cursor Crafting"
+    },
+    "achievements": {
+      "firstPubquiz": "First pub quiz raid",
+      "hundredPlayers": "100+ players in a season",
+      "guildSidequest": "Guild sidequest started"
+    },
+    "quests": {
+      "jobHunt": "Job hunt: live formats & events",
+      "myiSidequest": "Sidequest: MYI Agency",
+      "nextPubquiz": "Next pub quiz night"
+    },
+    "raids": {
+      "raid1": { "title": "Pub Quiz Sissach", "venue": "Local tavern" },
+      "raid2": { "title": "Season Opening", "venue": "Community night" }
+    },
+    "loot": {
+      "pubquizSite": {
+        "name": "Pub Quiz Sissach",
+        "description": "Event site with dates, teams, and Instagram integration."
+      },
+      "pubquizApp": {
+        "name": "Pub Quiz Live App",
+        "description": "Live quiz mechanics, leaderboards, and event flows."
+      },
+      "zumbii": {
+        "name": "Zumbii.ch",
+        "description": "This character sheet — portfolio as MMORPG UI."
+      }
+    },
+    "reputation": {
+      "pubquizCommunity": "Pub quiz community",
+      "nerdBars": "Nerd bars & culture",
+      "devGuild": "Dev guild (support role)"
+    },
+    "hobbies": {
+      "gaming": "Gaming (co-op & retro)",
+      "series": "Series & pop culture",
+      "boardGames": "Board game quests",
+      "lanCulture": "LAN & convention vibes"
+    },
+    "talents": {
+      "de": "German (native)",
+      "en": "English (raid-ready)"
+    }
+  },
+  "home": {
+    "stats": "Stats",
+    "equipment": "Equipment",
+    "pets": "Pets",
+    "achievements": "Achievements",
+    "reputation": "Reputation",
+    "hobbies": "Collections & emotes",
+    "activeQuests": "Active quests",
+    "tradingCardCta": "Show trading card",
+    "tradingCardBanner": "Trading Card"
+  },
+  "skillsPage": {
+    "intro": "Skill points reflect real nights in front of an audience.",
+    "treeHint": "Primary skills up front — dev skills as support build."
+  },
+  "questsPage": {
+    "intro": "Pub quiz is my dungeon: moderation, questions, crowd, pace.",
+    "formatTitle": "Format",
+    "formatText": "Nerd quiz at the bar: teams, multiple rounds, a tense finale. Scales from 20 to 100+ players.",
+    "loadoutTitle": "Event night loadout",
+    "loadoutItems": "Mic, timer, leaderboard app, backup question deck",
+    "statsTitle": "Raid stats",
+    "players": "Players",
+    "externalCta": "Visit pub quiz site",
+    "externalUrl": "https://pubquiz-sissach.ch"
+  },
+  "lootPage": {
+    "intro": "Projects as loot — sorted by rarity."
+  },
+  "cursorBuff": {
+    "title": "Buff: Cursor",
+    "text": "I build with Cursor — not to chase full-stack jobs, but so live formats ship fast: leaderboards, brand quizzes, event landings. Speed for activations, not endless code.",
+    "tag": "Pair programming · AI-assisted"
+  },
+  "contact": {
+    "intro": "Send a whisper — job, book a quiz, or sidequest.",
+    "mailtoHint": "Or email directly:",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "type": "Request type",
+      "message": "Message",
+      "types": {
+        "job": "Job / collaboration",
+        "quiz": "Book pub quiz",
+        "other": "Other"
+      }
+    },
+    "legalImprint": "Imprint",
+    "legalPrivacy": "Privacy"
+  },
+  "legal": {
+    "imprintTitle": "Imprint",
+    "imprintPlaceholder": "TODO: Diego — add imprint text.",
+    "privacyTitle": "Privacy",
+    "privacyPlaceholder": "TODO: Diego — add privacy text."
+  },
+  "myi": {
+    "badge": "Guild sidequest",
+    "headline": "A live format MYI can sell to brands",
+    "roleTitle": "Proposed role",
+    "roleName": "Event Manager — Live Formats & Hosting",
+    "notDevTitle": "Not a web developer role",
+    "notDevText": "I only use tech when it helps the format — leaderboard, QR quest, fast brand quiz.",
+    "variantsTitle": "Quiz variants",
+    "variants": {
+      "booth": {
+        "title": "Booth Speed Quiz",
+        "text": "2–4 minutes, high throughput at the booth."
+      },
+      "pub": {
+        "title": "Pub Quiz Night",
+        "text": "90-minute community experience with sponsor."
+      },
+      "stage": {
+        "title": "Stage Quiz Show",
+        "text": "20–30 minutes, stream-ready, creator-friendly."
+      }
+    },
+    "techTitle": "Cheat code: web + Cursor",
+    "techPoints": {
+      "leaderboard": "Live leaderboard instead of paper",
+      "brandQuiz": "Brand quiz in 48h with reporting",
+      "qrQuest": "QR quest across the venue",
+      "debrief": "Debrief metrics for the client"
+    },
+    "ctaRaid": "Offer a 45-min trial raid",
+    "ctaContact": "Get in touch",
+    "reelTitle": "Host reel",
+    "reelPlaceholder": "Video URL coming soon — placeholder ready.",
+    "mailSubject": "Sidequest for the event team: nerd quiz as brand activation",
+    "mailSnippet": "Hi MYI team — I host live activations, not websites. My format: nerd pub quiz (booth, bar, stage). Playable mini quiz and character sheet: ",
+    "copyMail": "Copy mail snippet",
+    "quizTitle": "MYI lore quiz",
+    "quizIntro": "8 questions · 5 min · proof homework was done.",
+    "quizStart": "Start quest",
+    "quizNext": "Next",
+    "quizFinish": "Finish",
+    "quizScore": "Score: {score} / {total}",
+    "quizEndTitle": "Quest complete",
+    "quizEndText": "If your team enjoys this for 5 minutes, I'll host the full version live — in the office or on Discord.",
+    "quizEndCta": "Send a whisper"
+  },
+  "myiQuiz": {
+    "questions": {
+      "myiFullName": {
+        "question": "What is MYI primarily?",
+        "options": [
+          "Gaming & nerd culture marketing",
+          "Enterprise ERP consulting",
+          "Classic print advertising"
+        ]
+      },
+      "myiFocus": {
+        "question": "What describes MYI best?",
+        "options": [
+          "Website relaunch only",
+          "Full service from strategy to on-site activations",
+          "IT support hotline only"
+        ]
+      },
+      "switzerLan": {
+        "question": "SwitzerLAN is known for…",
+        "options": [
+          "Wine festival",
+          "Small book clubs",
+          "Large LAN with community focus"
+        ]
+      },
+      "heroFest": {
+        "question": "For MYI, HeroFest mainly means…",
+        "options": [
+          "Interactive on-site brand activations",
+          "Passive banner ads only",
+          "Tax consulting"
+        ]
+      },
+      "myiVibe": {
+        "question": "MYI's team culture often feels like…",
+        "options": [
+          "Strict banking office",
+          "Quests, fandom, Discord, sidequests",
+          "Silence and slides"
+        ]
+      },
+      "swisscom": {
+        "question": "Swisscom typically appears at MYI as…",
+        "options": [
+          "Gaming/lead client & campaign partner",
+          "Competing agency",
+          "Hardware vendor only"
+        ]
+      },
+      "quizFormat": {
+        "question": "Diego's pitch fits MYI best because…",
+        "options": [
+          "It only replaces PDFs",
+          "It needs no community",
+          "It delivers sellable live formats for brands"
+        ]
+      },
+      "contactCta": {
+        "question": "Best next step after this quiz?",
+        "options": [
+          "Send a web developer CV",
+          "Request a 45-min trial quiz / hosting",
+          "Nothing — just bookmark the site"
+        ]
+      }
+    }
+  }
+}

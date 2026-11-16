@@ -1,0 +1,10 @@
+$breakpointSm: 480px;
+$breakpointMd: 768px;
+$breakpointLg: 1024px;
+$breakpointXl: 1280px;
+
+@mixin up($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
