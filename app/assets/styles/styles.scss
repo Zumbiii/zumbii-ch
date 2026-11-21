@@ -1,13 +1,14 @@
 @use 'colors' as *;
 @use 'breakpoints' as *;
-@import 'general';
-@import 'animations';
+@use 'general';
+@use 'animations';
+@use 'portfolio';
 
 .gameBackdrop {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
   background:
     radial-gradient(ellipse 80% 50% at 50% -20%, rgba(45, 212, 191, 0.08), transparent),
     linear-gradient(180deg, $colorBgDeep 0%, #0d1219 100%);
@@ -27,17 +28,27 @@
   }
 }
 
+.layoutMain {
+  flex: 1;
+  width: min(1200px, 100% - 2rem);
+  margin: 0 auto;
+  padding: 1rem 0 5rem;
+  color: #e8edf4;
+}
+
 .layoutShell {
   position: relative;
   z-index: 1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
+  color: #e8edf4;
 
-.layoutMain {
-  flex: 1;
-  width: min(1200px, 100% - 2rem);
-  margin: 0 auto;
-  padding: 1rem 0 5rem;
+  .pageTitle {
+    color: #c9a227;
+  }
+
+  a:not([class]) {
+    color: #2dd4bf;
+  }
 }

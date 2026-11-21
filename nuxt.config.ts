@@ -5,12 +5,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@vueuse/nuxt/module', 'nuxt-mail'],
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  components: [
-    {
-      path: '~/components',
-      pathPrefix: false,
-    },
-  ],
   css: ['~/assets/styles/styles.scss'],
   i18n: {
     vueI18n: './i18n.config.ts',
@@ -19,7 +13,7 @@ export default defineNuxtConfig({
       { code: 'en', name: 'English', file: 'en.json', language: 'en' },
     ],
     defaultLocale: 'de',
-    lazy: true,
+    lazy: false,
     langDir: 'locales',
     strategy: 'prefix_except_default',
     baseUrl: 'https://zumbii.ch',
@@ -34,6 +28,16 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16.png' },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '32x32',
+          href: '/favicon-dark-32.png',
+          media: '(prefers-color-scheme: dark)',
+        },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         {

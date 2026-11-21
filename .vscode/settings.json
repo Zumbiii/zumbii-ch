@@ -1,4 +1,5 @@
 {
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
   "editor.defaultFormatter": "esbenp.prettier-vscode",

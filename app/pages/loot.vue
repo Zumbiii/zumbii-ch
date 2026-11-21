@@ -1,15 +1,19 @@
 <script setup lang="ts">
+import PortfolioProjects from '~/components/Portfolio/Projects.vue';
+
 const { t } = useI18n();
+const { isNerd } = useSiteMode();
 const { character, lootLabel } = useCharacterData();
 
 useSeoMeta({
-  title: () => t('meta.lootTitle'),
-  description: () => t('lootPage.intro'),
+  title: () => t(isNerd.value ? 'meta.lootTitle' : 'portfolio.meta.projectsTitle'),
+  description: () => t(isNerd.value ? 'lootPage.intro' : 'portfolio.projects.intro'),
 });
 </script>
 
 <template>
-  <div class="lootPage">
+  <PortfolioProjects v-if="!isNerd" />
+  <div v-else class="lootPage">
     <h1 class="pageTitle">{{ $t('nav.loot') }}</h1>
     <p class="lootPage__intro">{{ $t('lootPage.intro') }}</p>
     <div class="lootPage__grid">

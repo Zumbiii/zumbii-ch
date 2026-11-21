@@ -1,0 +1,160 @@
+$portfolioBg: #0c0d10;
+$portfolioInk: #f4f4f5;
+$portfolioMuted: #a1a1aa;
+$portfolioBody: #d4d4d8;
+$portfolioLine: #2c2e33;
+$portfolioSurface: #17181c;
+$portfolioAccent: #f4f4f5;
+
+html[data-site-mode='normal'] {
+  color-scheme: dark;
+
+  body,
+  #__nuxt {
+    background: $portfolioBg;
+    color: $portfolioInk;
+  }
+
+  h1,
+  h2,
+  h3,
+  .rpgTitle,
+  .pageTitle {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: $portfolioInk;
+  }
+
+  .pageTitle {
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+  }
+
+  a {
+    color: $portfolioAccent;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .layoutShell,
+  .layoutMain {
+    color: $portfolioInk;
+  }
+
+  .layoutMain {
+    padding-bottom: 3rem;
+  }
+
+  .layoutShell .pageTitle {
+    color: $portfolioInk;
+  }
+
+  .layoutShell a:not([class]) {
+    color: $portfolioAccent;
+  }
+
+  .siteFooter {
+    padding-bottom: 2.5rem;
+
+    a {
+      color: $portfolioMuted;
+
+      &:hover {
+        color: $portfolioInk;
+      }
+    }
+  }
+
+  .basePanel {
+    background: $portfolioSurface;
+    border: 1px solid $portfolioLine;
+    border-radius: 14px;
+    box-shadow: none;
+    color: $portfolioInk;
+  }
+
+  .basePanel--highlight {
+    background: $portfolioSurface;
+    border-color: $portfolioLine;
+  }
+
+  .basePanel__head {
+    border-bottom-color: $portfolioLine;
+  }
+
+  .basePanel__title,
+  .basePanel__body,
+  .myiPage__role,
+  .myiQuiz__question {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: $portfolioInk;
+  }
+
+  .basePanel__tag,
+  .myiPage__badge,
+  .cursorBuff__tag,
+  .myiQuiz__progress,
+  .myiPage__raidOffer {
+    color: $portfolioMuted;
+    border-color: $portfolioLine;
+  }
+
+  .myiPage__variant h3 {
+    color: $portfolioInk;
+  }
+
+  .myiPage__variant p,
+  .myiPage__tech,
+  .cursorBuff__text,
+  .myiQuiz__intro,
+  .myiQuiz__endText {
+    color: $portfolioBody;
+  }
+
+  .baseButton--primary {
+    background: $portfolioInk;
+    border-color: $portfolioInk;
+    color: $portfolioBg;
+
+    &:hover:not(:disabled) {
+      background: #ffffff;
+      border-color: #ffffff;
+      color: $portfolioBg;
+    }
+  }
+
+  .baseButton--ghost {
+    background: transparent;
+    border-color: #3a3d44;
+    color: $portfolioInk;
+
+    &:hover:not(:disabled) {
+      border-color: $portfolioInk;
+      color: #ffffff;
+    }
+  }
+
+  .formContact__field span {
+    color: $portfolioMuted;
+  }
+
+  .formContact__field input,
+  .formContact__field select,
+  .formContact__field textarea,
+  .myiQuiz__option {
+    background: #121318;
+    color: $portfolioInk;
+    border-color: $portfolioLine;
+  }
+
+  .myiQuiz__option--active {
+    border-color: $portfolioInk;
+    box-shadow: none;
+  }
+
+  .myiQuiz__endTitle {
+    color: $portfolioInk;
+  }
+}

@@ -17,7 +17,8 @@
     "contact": "Contact",
     "language": "Language",
     "menuOpen": "Open menu",
-    "menuClose": "Close menu"
+    "menuClose": "Close menu",
+    "logoAlt": "Zumbii logo"
   },
   "common": {
     "level": "Level",
@@ -41,7 +42,7 @@
     "subtitle": "I host rooms — not just repositories.",
     "mapRegion": "Basel-Land · Switzerland",
     "pitch": "I'm targeting event management, live activations, and hosting. Nerd pub quiz is my signature format. Web dev and Cursor are my cheat code for fast mechanics — not the job I'm after.",
-    "portraitAlt": "Character portrait of Diego — placeholder for AI art",
+    "portraitAlt": "Character portrait of Diego",
     "pet": {
       "name": "Mystery Cat",
       "role": "Companion",
@@ -144,6 +145,7 @@
   },
   "cursorBuff": {
     "title": "Buff: Cursor",
+    "badge": "Buff",
     "text": "I build with Cursor — not to chase full-stack jobs, but so live formats ship fast: leaderboards, brand quizzes, event landings. Speed for activations, not endless code.",
     "tag": "Pair programming · AI-assisted"
   },
@@ -282,6 +284,69 @@
           "Nothing — just bookmark the site"
         ]
       }
+    }
+  },
+  "mode": {
+    "label": "Appearance",
+    "normal": "Normal",
+    "nerd": "Nerd"
+  },
+  "portfolio": {
+    "meta": {
+      "homeTitle": "Diego — Event Host & Live Formats",
+      "homeDescription": "Portfolio of Diego: event hosting, live activations, and nerd pub quiz. Basel-Land, Switzerland.",
+      "skillsTitle": "Skills | Diego",
+      "formatsTitle": "Live formats | Diego",
+      "projectsTitle": "Projects | Diego",
+      "contactTitle": "Contact | Diego",
+      "myiTitle": "Working with MYI | Diego"
+    },
+    "nav": {
+      "home": "Home",
+      "skills": "Skills",
+      "formats": "Formats",
+      "projects": "Projects",
+      "myi": "MYI",
+      "contact": "Contact"
+    },
+    "backHome": "Back to home",
+    "ctaContact": "Get in touch",
+    "ctaFormats": "See formats",
+    "yearsLabel": "{years} years of experience",
+    "portraitAlt": "Photo of Diego",
+    "focusTitle": "Focus",
+    "focusLead": "Live in front of an audience — from the bar to the stage.",
+    "focus": {
+      "hosting": "Hold the room, set the pace, bring the audience along.",
+      "quizDesign": "Questions, rounds, and a finale that lands.",
+      "moderation": "Lead clearly without losing the team.",
+      "eventOps": "Run of show, tech, and a backup before the night starts."
+    },
+    "workTitle": "Selected work",
+    "craftTitle": "Web as a tool",
+    "skillsIntro": "What I bring when a room needs to go live.",
+    "skillsHint": "Hosting and formats come first. I use the web when it helps the night.",
+    "skillsLive": "Live",
+    "skillsCraft": "Build",
+    "languagesTitle": "Languages",
+    "formats": {
+      "intro": "Nerd pub quiz is my signature format: hosting, questions, audience, and pace.",
+      "formatTitle": "The format",
+      "setupTitle": "What I bring",
+      "statsTitle": "Nights"
+    },
+    "projects": {
+      "intro": "Sites and tools that came out of real event nights.",
+      "zumbii": "This website — a portfolio with a switchable nerd mode."
+    },
+    "contact": {
+      "intro": "For jobs, quiz bookings, or a collaboration.",
+      "sendSuccess": "Message sent. I'll get back to you."
+    },
+    "myi": {
+      "badge": "Collaboration",
+      "techTitle": "Tech, when it serves the format",
+      "ctaTrial": "Offer a 45-minute hosting trial"
     }
   }
 }

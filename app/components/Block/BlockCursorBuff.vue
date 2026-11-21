@@ -1,5 +1,14 @@
+<script setup lang="ts">
+const { t } = useI18n();
+const { isNerd } = useSiteMode();
+</script>
+
 <template>
-  <BasePanel :title="$t('cursorBuff.title')" variant="highlight" tag="Buff">
+  <BasePanel
+    :title="isNerd ? t('cursorBuff.title') : t('portfolio.craftTitle')"
+    :variant="isNerd ? 'highlight' : 'default'"
+    :tag="isNerd ? t('cursorBuff.badge') : undefined"
+  >
     <p class="cursorBuff__text">{{ $t('cursorBuff.text') }}</p>
     <span class="cursorBuff__tag">{{ $t('cursorBuff.tag') }}</span>
   </BasePanel>
@@ -10,6 +19,7 @@
   margin: 0 0 0.75rem;
   font-size: 1rem;
   line-height: 1.6;
+  color: $colorText;
 }
 
 .cursorBuff__tag {

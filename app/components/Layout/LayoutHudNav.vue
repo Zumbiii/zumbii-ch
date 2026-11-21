@@ -25,9 +25,7 @@ const closeMenu = () => {
 
 <template>
   <header class="hudNav">
-    <NuxtLink :to="localePath('/')" class="hudNav__brand" @click="closeMenu">
-      Zumbii.ch
-    </NuxtLink>
+    <LayoutSiteBrand variant="hud" @click="closeMenu" />
     <button
       type="button"
       class="hudNav__toggle"
@@ -47,6 +45,7 @@ const closeMenu = () => {
       >
         {{ $t(item.label) }}
       </NuxtLink>
+      <LayoutModeSwitch variant="hud" />
       <div class="hudNav__langs" role="group" :aria-label="$t('nav.language')">
         <NuxtLink
           v-for="loc in locales"
@@ -75,14 +74,6 @@ const closeMenu = () => {
   background: rgba(10, 14, 20, 0.92);
   border-bottom: 1px solid $colorBorderGoldDim;
   backdrop-filter: blur(8px);
-
-  &__brand {
-    font-family: 'Cinzel', serif;
-    font-weight: 700;
-    color: $colorBorderGold;
-    text-decoration: none;
-    font-size: 1.1rem;
-  }
 
   &__toggle {
     display: flex;

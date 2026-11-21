@@ -23,9 +23,9 @@ const showCard = ref(false);
     <div class="characterSheet__hero">
       <div class="characterSheet__portraitWrap">
         <img
-          src="/images/character/placeholder.svg"
-          width="480"
-          height="640"
+          src="/images/character/diego.jpg"
+          width="1400"
+          height="1875"
           class="characterSheet__portrait"
           loading="eager"
           :alt="t('character.portraitAlt')"
@@ -120,6 +120,12 @@ const showCard = ref(false);
 
 <style lang="scss" scoped>
 .characterSheet {
+  color: $colorText;
+
+  .pageTitle {
+    color: $colorBorderGold;
+  }
+
   &__hero {
     display: grid;
     gap: 1.5rem;
@@ -131,12 +137,36 @@ const showCard = ref(false);
     }
   }
 
+  &__portraitWrap {
+    order: 2;
+
+    @include up($breakpointLg) {
+      order: 1;
+    }
+  }
+
+  &__intro {
+    order: 1;
+
+    @include up($breakpointLg) {
+      order: 2;
+    }
+  }
+
   &__portrait {
+    display: block;
     border: 2px solid $colorBorderGold;
     border-radius: 8px;
     width: 100%;
-    max-width: 280px;
+    height: auto;
+    max-width: 200px;
     margin: 0 auto;
+    object-fit: cover;
+    box-shadow: 0 0 24px rgba(201, 162, 39, 0.25);
+
+    @include up($breakpointLg) {
+      max-width: 280px;
+    }
   }
 
   &__level {
@@ -163,6 +193,11 @@ const showCard = ref(false);
   &__pitch {
     margin: 1rem 0;
     line-height: 1.6;
+    color: $colorText;
+  }
+
+  &__intro {
+    color: $colorText;
   }
 
   &__secondary {

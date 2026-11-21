@@ -17,7 +17,8 @@
     "contact": "Kontakt",
     "language": "Sprache",
     "menuOpen": "Menü öffnen",
-    "menuClose": "Menü schließen"
+    "menuClose": "Menü schließen",
+    "logoAlt": "Zumbii Logo"
   },
   "common": {
     "level": "Level",
@@ -41,7 +42,7 @@
     "subtitle": "Ich hoste Räume — nicht Repositories.",
     "mapRegion": "Basel-Land · Schweiz",
     "pitch": "Primär suche ich Rollen in Event Management, Live-Aktivierungen und Hosting. Nerd-Pubquiz ist mein Signature-Format. Webentwicklung und Cursor sind mein Cheat-Code für schnelle Mechaniken — nicht der Job, den ich will.",
-    "portraitAlt": "Charakterportrait von Diego — Platzhalter für AI-Art",
+    "portraitAlt": "Charakterportrait von Diego",
     "pet": {
       "name": "Mystery Cat",
       "role": "Begleiter",
@@ -144,6 +145,7 @@
   },
   "cursorBuff": {
     "title": "Buff: Cursor",
+    "badge": "Buff",
     "text": "Ich entwickle mit Cursor — nicht um Fullstack-Jobs zu suchen, sondern damit Live-Formate schnell stehen: Leaderboard, Brand-Quiz, Landing für Events. Das ist Tempo für Aktivierungen, nicht Dauercode.",
     "tag": "Pair-Programming · AI-assisted"
   },
@@ -282,6 +284,69 @@
           "Nichts — nur Website bookmarken"
         ]
       }
+    }
+  },
+  "mode": {
+    "label": "Darstellung",
+    "normal": "Normal",
+    "nerd": "Nerd"
+  },
+  "portfolio": {
+    "meta": {
+      "homeTitle": "Diego — Event Host & Live-Formate",
+      "homeDescription": "Portfolio von Diego: Event Hosting, Live-Aktivierungen und Nerd-Pubquiz. Basel-Land, Schweiz.",
+      "skillsTitle": "Fähigkeiten | Diego",
+      "formatsTitle": "Live-Formate | Diego",
+      "projectsTitle": "Projekte | Diego",
+      "contactTitle": "Kontakt | Diego",
+      "myiTitle": "Zusammenarbeit mit MYI | Diego"
+    },
+    "nav": {
+      "home": "Start",
+      "skills": "Fähigkeiten",
+      "formats": "Formate",
+      "projects": "Projekte",
+      "myi": "MYI",
+      "contact": "Kontakt"
+    },
+    "backHome": "Zur Startseite",
+    "ctaContact": "Kontakt aufnehmen",
+    "ctaFormats": "Formate ansehen",
+    "yearsLabel": "{years} Jahre Erfahrung",
+    "portraitAlt": "Foto von Diego",
+    "focusTitle": "Schwerpunkte",
+    "focusLead": "Live vor Publikum — von der Bar bis zur Bühne.",
+    "focus": {
+      "hosting": "Räume halten, Tempo steuern, Publikum mitnehmen.",
+      "quizDesign": "Fragen, Runden und ein Finale, das sitzt.",
+      "moderation": "Klar führen, ohne das Team zu verlieren.",
+      "eventOps": "Ablauf, Technik und Backup, bevor der Abend startet."
+    },
+    "workTitle": "Ausgewählte Projekte",
+    "craftTitle": "Web als Werkzeug",
+    "skillsIntro": "Was ich mitbringe, wenn ein Raum live gehen soll.",
+    "skillsHint": "Im Zentrum stehen Hosting und Formate. Web setze ich ein, wenn es dem Abend hilft.",
+    "skillsLive": "Live",
+    "skillsCraft": "Umsetzung",
+    "languagesTitle": "Sprachen",
+    "formats": {
+      "intro": "Nerd-Pubquiz ist mein Signature-Format: Moderation, Fragen, Publikum und Tempo.",
+      "formatTitle": "Das Format",
+      "setupTitle": "Was ich mitbringe",
+      "statsTitle": "Abende"
+    },
+    "projects": {
+      "intro": "Seiten und Tools, die aus echten Abenden entstanden sind.",
+      "zumbii": "Diese Website — Portfolio mit einem umschaltbaren Nerd-Modus."
+    },
+    "contact": {
+      "intro": "Für Jobs, Quiz-Buchungen oder eine Zusammenarbeit.",
+      "sendSuccess": "Nachricht gesendet. Ich melde mich."
+    },
+    "myi": {
+      "badge": "Zusammenarbeit",
+      "techTitle": "Technik, wenn sie dem Format dient",
+      "ctaTrial": "45 Minuten Probe-Hosting anbieten"
     }
   }
 }

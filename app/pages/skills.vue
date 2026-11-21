@@ -1,17 +1,21 @@
 <script setup lang="ts">
+import PortfolioSkills from '~/components/Portfolio/Skills.vue';
+
 const { t } = useI18n();
+const { isNerd } = useSiteMode();
 const { character, skillLabel } = useCharacterData();
 
 const primarySkillIds = ['hosting', 'quizDesign', 'moderation', 'eventOps'];
 
 useSeoMeta({
-  title: () => t('meta.skillsTitle'),
-  description: () => t('skillsPage.intro'),
+  title: () => t(isNerd.value ? 'meta.skillsTitle' : 'portfolio.meta.skillsTitle'),
+  description: () => t(isNerd.value ? 'skillsPage.intro' : 'portfolio.skillsIntro'),
 });
 </script>
 
 <template>
-  <div class="skillsPage">
+  <PortfolioSkills v-if="!isNerd" />
+  <div v-else class="skillsPage">
     <h1 class="pageTitle">{{ $t('nav.skills') }}</h1>
     <p class="skillsPage__intro">{{ $t('skillsPage.intro') }}</p>
     <p class="skillsPage__hint">{{ $t('skillsPage.treeHint') }}</p>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n();
+const { isNerd } = useSiteMode();
 const config = useRuntimeConfig();
 
 const name = ref('');
@@ -65,7 +66,7 @@ const submitForm = async () => {
       {{ status === 'sending' ? $t('common.sending') : $t('common.submit') }}
     </BaseButton>
     <p v-if="status === 'success'" class="formContact__status formContact__status--ok">
-      {{ $t('common.sendSuccess') }}
+      {{ isNerd ? $t('common.sendSuccess') : $t('portfolio.contact.sendSuccess') }}
     </p>
     <p v-else-if="status === 'error'" class="formContact__status formContact__status--err">
       {{ $t('common.sendError') }}

@@ -1,10 +1,11 @@
 <script setup lang="ts">
 const { t } = useI18n();
+const { isNerd } = useSiteMode();
 const config = useRuntimeConfig();
 const localePath = useLocalePath();
 
 useSeoMeta({
-  title: () => t('meta.myiTitle'),
+  title: () => t(isNerd.value ? 'meta.myiTitle' : 'portfolio.meta.myiTitle'),
   description: () => t('myi.headline'),
 });
 
@@ -41,7 +42,7 @@ const hostReelUrl = computed(() => config.public.hostReelUrl);
 
 <template>
   <div class="myiPage">
-    <span class="myiPage__badge">{{ $t('myi.badge') }}</span>
+    <span class="myiPage__badge">{{ isNerd ? $t('myi.badge') : $t('portfolio.myi.badge') }}</span>
     <h1 class="pageTitle">{{ $t('myi.headline') }}</h1>
 
     <BasePanel :title="$t('myi.roleTitle')" variant="highlight">
@@ -61,7 +62,7 @@ const hostReelUrl = computed(() => config.public.hostReelUrl);
       </div>
     </BasePanel>
 
-    <BasePanel :title="$t('myi.techTitle')">
+    <BasePanel :title="isNerd ? $t('myi.techTitle') : $t('portfolio.myi.techTitle')">
       <ul class="myiPage__tech">
         <li v-for="pointKey in techPointKeys" :key="pointKey">
           {{ $t(pointKey) }}
@@ -78,7 +79,7 @@ const hostReelUrl = computed(() => config.public.hostReelUrl);
     </BasePanel>
 
     <BasePanel :title="$t('myi.quizTitle')">
-      <MyiQuiz />
+      <QuizMyiQuiz />
     </BasePanel>
 
     <div class="myiPage__cta">
@@ -87,7 +88,7 @@ const hostReelUrl = computed(() => config.public.hostReelUrl);
         {{ copyStatus ? $t('common.copySuccess') : $t('myi.copyMail') }}
       </BaseButton>
     </div>
-    <p class="myiPage__raidOffer">{{ $t('myi.ctaRaid') }}</p>
+    <p class="myiPage__raidOffer">{{ isNerd ? $t('myi.ctaRaid') : $t('portfolio.myi.ctaTrial') }}</p>
   </div>
 </template>
 

@@ -1,15 +1,19 @@
 <script setup lang="ts">
+import PortfolioFormats from '~/components/Portfolio/Formats.vue';
+
 const { t } = useI18n();
+const { isNerd } = useSiteMode();
 const { character, raidLabel } = useCharacterData();
 
 useSeoMeta({
-  title: () => t('meta.questsTitle'),
-  description: () => t('questsPage.intro'),
+  title: () => t(isNerd.value ? 'meta.questsTitle' : 'portfolio.meta.formatsTitle'),
+  description: () => t(isNerd.value ? 'questsPage.intro' : 'portfolio.formats.intro'),
 });
 </script>
 
 <template>
-  <div class="questsPage">
+  <PortfolioFormats v-if="!isNerd" />
+  <div v-else class="questsPage">
     <h1 class="pageTitle">{{ $t('nav.quests') }}</h1>
     <p class="questsPage__intro">{{ $t('questsPage.intro') }}</p>
 

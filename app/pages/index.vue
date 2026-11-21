@@ -1,14 +1,20 @@
 <script setup lang="ts">
+import BlockCursorBuff from '~/components/Block/BlockCursorBuff.vue';
+import CharacterSheet from '~/components/Character/CharacterSheet.vue';
+import PortfolioHome from '~/components/Portfolio/Home.vue';
+
 const { t } = useI18n();
+const { isNerd } = useSiteMode();
 
 useSeoMeta({
-  title: () => t('meta.homeTitle'),
-  description: () => t('meta.homeDescription'),
+  title: () => t(isNerd.value ? 'meta.homeTitle' : 'portfolio.meta.homeTitle'),
+  description: () => t(isNerd.value ? 'meta.homeDescription' : 'portfolio.meta.homeDescription'),
 });
 </script>
 
 <template>
-  <div>
+  <PortfolioHome v-if="!isNerd" />
+  <div v-else>
     <CharacterSheet />
     <BlockCursorBuff class="homeCursorBuff" />
   </div>

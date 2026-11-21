@@ -38,6 +38,7 @@ defineProps<{
   &__title {
     margin: 0;
     font-weight: 500;
+    color: $colorText;
   }
 }
 </style>

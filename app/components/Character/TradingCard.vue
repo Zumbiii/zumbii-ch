@@ -12,9 +12,9 @@ const sidequestPath = computed(() => localePath('/sidequest/myi'));
     <div class="tradingCard__inner">
       <img
         class="tradingCard__portrait"
-        src="/images/character/placeholder.svg"
-        width="120"
-        height="160"
+        src="/images/character/diego.jpg"
+        width="1400"
+        height="1875"
         loading="lazy"
         :alt="t('character.portraitAlt')"
       />
@@ -67,6 +67,11 @@ const sidequestPath = computed(() => localePath('/sidequest/myi'));
   }
 
   &__portrait {
+    display: block;
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center top;
     border: 2px solid $colorBorderGoldDim;
     border-radius: 4px;
     flex-shrink: 0;

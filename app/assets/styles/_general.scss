@@ -8,6 +8,13 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+#__nuxt {
+  color: #e8edf4;
+  background-color: #0a0e14;
+  min-height: 100vh;
 }
 
 body {

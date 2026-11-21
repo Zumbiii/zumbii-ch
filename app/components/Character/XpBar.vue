@@ -26,9 +26,7 @@ const displayPercent = computed(() => `${clampedPercent.value}%`);
     >
       <div class="xpBar__fill" :style="{ width: displayPercent }" />
     </div>
-    <ClientOnly>
-      <div class="xpBar__glow" aria-hidden="true" />
-    </ClientOnly>
+    <div class="xpBar__glow" aria-hidden="true" />
   </div>
 </template>
 

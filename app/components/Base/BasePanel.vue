@@ -54,5 +54,9 @@ defineProps<{
     color: $colorBorderGold;
     margin: 0;
   }
+
+  &__body {
+    color: $colorText;
+  }
 }
 </style>
