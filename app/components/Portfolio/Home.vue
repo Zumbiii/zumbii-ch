@@ -2,6 +2,7 @@
 const { t } = useI18n();
 const localePath = useLocalePath();
 const { character, skillLabel, lootLabel } = useCharacterData();
+const life = useCharacterLife(character.birthDate);
 
 const focusIds = ['hosting', 'quizDesign', 'moderation', 'eventOps'] as const;
 
@@ -19,7 +20,7 @@ const formatsPath = computed(() => localePath('/quests'));
         <p class="portfolioHome__lead">{{ t('character.subtitle') }}</p>
         <p class="portfolioHome__pitch">{{ t('character.pitch') }}</p>
         <p class="portfolioHome__meta">
-          {{ t('portfolio.yearsLabel', { years: character.yearsExperience }) }}
+          {{ t('portfolio.yearsLabel', { years: life.yearsExperience }) }}
         </p>
         <div class="portfolioHome__actions">
           <BaseButton :to="contactPath">{{ t('portfolio.ctaContact') }}</BaseButton>

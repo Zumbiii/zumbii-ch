@@ -9,6 +9,8 @@ const {
   hobbyLabel,
 } = useCharacterData();
 
+const life = useCharacterLife(character.birthDate);
+
 const slotLabels: Record<string, string> = {
   mainHand: 'Main Hand',
   offHand: 'Off Hand',
@@ -33,15 +35,15 @@ const showCard = ref(false);
       </div>
       <div class="characterSheet__intro">
         <p class="characterSheet__level">
-          {{ $t('common.level') }} {{ character.level }}
+          {{ $t('common.level') }} {{ life.level }}
         </p>
         <h1 class="pageTitle">{{ t('character.name') }}</h1>
         <p class="characterSheet__title">{{ t('character.title') }}</p>
         <p class="characterSheet__subtitle">{{ t('character.subtitle') }}</p>
         <p class="characterSheet__region">{{ t('character.mapRegion') }}</p>
         <CharacterXpBar
-          :percent="character.xpPercent"
-          :label="`${$t('common.xp')} · ${character.yearsExperience} ${$t('common.years')}`"
+          :percent="life.xpPercent"
+          :label="`${$t('common.level')} ${life.level}`"
         />
         <p class="characterSheet__pitch">{{ t('character.pitch') }}</p>
         <p class="characterSheet__secondary">{{ t('character.secondaryClass') }}</p>

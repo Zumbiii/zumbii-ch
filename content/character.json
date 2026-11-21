@@ -1,7 +1,5 @@
 {
-  "level": 32,
-  "yearsExperience": 12,
-  "xpPercent": 82,
+  "birthDate": "1995-11-09",
   "skills": [
     { "id": "hosting", "points": 96, "max": 100 },
     { "id": "quizDesign", "points": 94, "max": 100 },

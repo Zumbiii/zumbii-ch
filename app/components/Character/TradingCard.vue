@@ -2,6 +2,7 @@
 const { t } = useI18n();
 const localePath = useLocalePath();
 const { character } = useCharacterData();
+const life = useCharacterLife(character.birthDate);
 
 const sidequestPath = computed(() => localePath('/sidequest/myi'));
 </script>
@@ -24,7 +25,7 @@ const sidequestPath = computed(() => localePath('/sidequest/myi'));
         <dl class="tradingCard__stats">
           <div class="tradingCard__stat">
             <dt>{{ $t('common.level') }}</dt>
-            <dd>{{ character.level }}</dd>
+            <dd>{{ life.level }}</dd>
           </div>
           <div class="tradingCard__stat">
             <dt>{{ $t('nav.quests') }}</dt>
