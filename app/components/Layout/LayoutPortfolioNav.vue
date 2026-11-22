@@ -58,7 +58,6 @@ const closeMenu = () => {
         {{ t(item.label) }}
       </NuxtLink>
       <div class="portfolioNav__tools">
-        <LayoutModeSwitch variant="plain" />
         <div class="portfolioNav__langs" role="group" :aria-label="t('nav.language')">
           <NuxtLink
             v-for="loc in locales"

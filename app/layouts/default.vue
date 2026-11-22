@@ -19,6 +19,7 @@ useHead(
       <slot />
     </main>
     <LayoutActionBar v-if="isNerd" />
+    <LayoutModeDock />
     <LayoutSiteFooter />
   </div>
 </template>

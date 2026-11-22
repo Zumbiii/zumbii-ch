@@ -45,7 +45,6 @@ const closeMenu = () => {
       >
         {{ $t(item.label) }}
       </NuxtLink>
-      <LayoutModeSwitch variant="hud" />
       <div class="hudNav__langs" role="group" :aria-label="$t('nav.language')">
         <NuxtLink
           v-for="loc in locales"
